@@ -1,11 +1,10 @@
 {
   "name": "start-node",
-  "version": "0.2.0",
-  "description": "Simple starting point to create a Node.js API",
+  "version": "0.1.0",
+  "description": "Simple starting point to create a Node.js program",
   "main": "server.js",
   "keywords": [
     "nodejs",
-    "express",
     "starter"
   ],
   "author": "Cedric Nicoloso <cedric.nicoloso@gmail.com>",
@@ -14,22 +13,16 @@
     "node": "8.x",
     "npm": "5.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cedric25/node-api-starter.git"
-  },
   "scripts": {
     "start": "npm run start:dev",
-    "start:dev": "PORT=3001 node server | npx bunyan --time local --output short",
+    "start:dev": "node index | npx bunyan --time local --output short",
     "start:debug": "LOG_LEVEL=debug npm run start:dev",
-    "start:prod": "NODE_ENV=production node server",
+    "start:prod": "NODE_ENV=production node index",
     "test": "FORCE_COLOR=true jest | npx bunyan --time local --output short",
     "lint": "eslint . --ext .js"
   },
   "dependencies": {
-    "bunyan": "^1.8.12",
-    "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "bunyan": "^1.8.12"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
@@ -38,7 +31,6 @@
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "jest": "^22.3.0",
-    "supertest": "^3.0.0"
+    "jest": "^22.3.0"
   }
 }
