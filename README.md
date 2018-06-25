@@ -2,6 +2,8 @@
 
 Simple starting point to create a Node.js program.
 
+Interested by creating an API instead? Try [https://github.com/cedric25/node-api-starter](https://github.com/cedric25/node-api-starter)
+
 Includes:
  - An index.js calling a 'run()' function from another file
  - Test stack with [jest](https://facebook.github.io/jest/)
