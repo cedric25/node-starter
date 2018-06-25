@@ -1,8 +1,9 @@
+const { assert } = require('chai')
 const { add } = require('../src/utils')
 
 describe('When calling add() with 2 and 2', () => {
-  test('It should answer 4', async () => {
+  it('Should answer 4', () => {
     const result = add(2, 2)
-    expect(result).toBe(4)
+    assert.equal(result, 4)
   })
 })
