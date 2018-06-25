@@ -15,8 +15,8 @@ Includes:
  - Clone this project
 ```
 git clone https://github.com/cedric25/node-starter.git
-mv node-starter my-nodejs-program
-cd my-api
+mv node-starter my-program
+cd my-program
 npm i // yarn
 ```
 
