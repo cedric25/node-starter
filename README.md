@@ -6,7 +6,7 @@ Interested by creating an API instead? Try [https://github.com/cedric25/node-api
 
 Includes:
  - An index.js calling a 'run()' function from another file
- - Test stack with [jest](https://facebook.github.io/jest/)
+ - Test stack with [mocha](https://mochajs.org/#synchronous-code)
  - ESLint with [standard](https://standardjs.com/)
  - Logs with [bunyan](https://github.com/trentm/node-bunyan)
 
