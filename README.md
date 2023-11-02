@@ -1,8 +1,10 @@
 # node-starter
 
-Simple starting point to create a Node.js program.
+Simple starting point to create a Node.js app.
 
-Interested by creating an API instead? Try [https://github.com/cedric25/node-api-starter](https://github.com/cedric25/node-api-starter)
+Starter template quite deprecated...
+
+Better to have a look at the API starter instead: [https://github.com/cedric25/node-api-starter](https://github.com/cedric25/node-api-starter)
 
 Includes:
  - An index.js calling a 'run()' function from another file
